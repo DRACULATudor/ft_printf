@@ -11,7 +11,7 @@ make
 ```
 Or, if there is no Makefile:
 ```
-gcc -Wall -Wextra -Werror
+gcc -Wall -Wextra -Werror + all files which have .c as extenstion
 ```
 Run the program:
 ```
