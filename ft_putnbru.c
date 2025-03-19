@@ -6,7 +6,7 @@
 /*   By: tlupu <tlupu@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 15:35:24 by tlupu             #+#    #+#             */
-/*   Updated: 2023/12/12 15:45:45 by tlupu            ###   ########.fr       */
+/*   Updated: 2025/03/19 11:53:32 by tlupu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_putnbru(unsigned int n)
 	unsigned int	count;
 
 	count = 0;
-	if (n < 0)
+	if (n <= 0)
 	{
 		count += ft_putchar_pf('-');
 	}
